@@ -1,0 +1,11 @@
+{
+    "users":[
+        {
+            "name":"Krishnakant",
+            "username":"krp",
+            "email":"krp@gmail.com",
+            "phone":1234567899,
+            "id":1
+        }
+    ]
+}
