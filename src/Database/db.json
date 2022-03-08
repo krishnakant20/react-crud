@@ -8,60 +8,11 @@
       "id": 1
     },
     {
-      "name": "Ironman",
+      "name": "Ironman3333",
       "username": "iii",
       "email": "ironman@gmail.com",
       "phone": 1234567899,
       "id": 2
-    },
-    {
-      "name": "water",
-      "username": "f",
-      "email": "f",
-      "phone": "88561312565",
-      "id": 3
-    },
-    {
-      "name": "antman",
-      "username": "ant",
-      "email": "ant@gmail.com",
-      "phone": "1234567899",
-      "id": 4
-    },
-    {
-      "name": "spiderman",
-      "username": "spi",
-      "email": "s@gmail.com",
-      "phone": "7894561233",
-      "id": 5
-    },
-    {
-      "name": "scarlet",
-      "username": "s",
-      "email": "s@gmail.com",
-      "phone": "1234567899",
-      "id": 6
-    },
-    {
-      "name": "superman",
-      "username": "s",
-      "email": "sp@gmail.com",
-      "phone": "1234567894",
-      "id": 7
-    },
-    {
-      "name": "batman",
-      "username": "b",
-      "email": "b@gmail.com",
-      "phone": "7895641232",
-      "id": 8
-    },
-    {
-      "name": "wonderwoman",
-      "username": "w",
-      "email": "w@gmail.com",
-      "phone": "789654123",
-      "id": 9
     }
   ]
 }

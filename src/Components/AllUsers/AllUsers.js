@@ -1,7 +1,9 @@
 import { Button, Table, TableBody, TableCell, TableHead, TableRow } from '@mui/material';
 import React, { useEffect, useState } from 'react'
-import { getUsers } from '../../Service/api'
+import { getUsers,deleteUser } from '../../Service/api'
 import { makeStyles } from '@mui/styles';
+import { NavLink } from "react-router-dom";
+
 
 const useStyle = makeStyles({
     table: {
@@ -34,6 +36,12 @@ const AllUsers = () => {
         setUsers(responseGET.data);
     }
 
+    // deleteting user
+    const deleteUserData = async(id)=>{
+        await deleteUser(id);
+        getAllUsers();
+    }
+
 
     return (
         <>
@@ -59,8 +67,8 @@ const AllUsers = () => {
                                 <TableCell>{user.email}</TableCell>
                                 <TableCell>{user.phone}</TableCell>
                                 <TableCell>
-                                    <Button variant='contained' color='primary' style={{marginRight:10}} >Edit</Button>
-                                    <Button variant='contained' color='secondary' style={{marginRight:10}} >Delete</Button>
+                                    <Button variant='contained' color='primary' style={{marginRight:10}} component={NavLink} exact to={`/edit/${user.id}`} >Edit</Button>
+                                    <Button variant='contained' color='secondary' style={{marginRight:10}} onClick={()=>deleteUserData(user.id)} >Delete</Button>
                                     </TableCell>
                             </TableRow>
                         ))
