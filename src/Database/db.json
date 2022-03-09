@@ -13,6 +13,13 @@
       "email": "ironman@gmail.com",
       "phone": 1234567899,
       "id": 2
+    },
+    {
+      "name": "spiderman",
+      "username": "spi",
+      "email": "i",
+      "phone": "4",
+      "id": 3
     }
   ]
 }
